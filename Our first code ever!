@@ -1,0 +1,84 @@
+# print an intro and use input & promt to make the first question that answer intro
+# To organize use print("_" * 110) to make a line to separate the lines.
+
+print("""Hi! 
+We're Team 19 and we'd love to meet you, but first we need some important information from you.
+Lets start off with something easy like a random Plural noun.""") 
+Plural_Noun = input(prompt = "(i.e. boats, cows): ")   
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y") 
+print("\nNice! We like that!") 
+Adjective = input(prompt = "Now how about an Adjective? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nThat's interesting! We’ll try to make that fit!")
+Food = input(prompt = "This is random but, what is something found in a farm? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print( "\nWe will definitely look into that later today!")
+Sport = input(prompt = "How about an underrated Sport? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nYES, that is definitely an underrated sport!")
+Number = input(prompt = "What’s your lucky number? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nYeah that’s a good one!")
+Videogame = input(prompt = "Is there any video game that you recommend? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nThat game is nuts, I love it!")
+Company= input(prompt = "What's your dream company growing up? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nI think I know someone who works there?")
+Animal = input(prompt = "If you could be an animal, what would it be? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y")
+print("\nInteresting choice, I would have chosen something else, but that's okay.. I guess..")
+Cooking_Method = input(prompt = "Almost done, what's your favorite way of cooking things at home? ")
+print("_" * 110)
+
+# respond to comment by using print and then crate a new input while questioning by using x = input(prompt = "y") 
+print("\nWow, you are a lazy one aren't you?")
+Place = input(prompt = "Finally, what is one place that you would not want to visit at night? ")
+print("_" * 110)
+print("_" * 110)
+
+# make a short intro by using print
+print("\nReady to meet us? ")
+
+
+#crate the story. Use the f to implement the input statments and mark the input area with {x} to marke where 
+# we want our answer. Use some underlines "_" to mark the area to make sure its visible. 
+
+print(f"""
+
+Hi class! We are Team 19! Our team is probably the best team ever, we like to call ourselves the {Plural_Noun}. 
+We’d love to introduce ourselves to you one by one. Nick is the {Adjective} guy of the group, we call him that 
+because he loves to eat {Food}. Nathalia, on the other hand, is incredibly talented at {Sport} in fact she has 
+{Number} awards from the Tokyo Olympics. Anne is a professional {Videogame} player and is a streamer for one of 
+the biggest groups in the world-- {Company} streamers united. Finally, we have Rui who loves to cook, 
+his favorite dish is made from {Animal} meat. He says the best way to prepare it 
+is to {Cooking_Method} it. 
+
+As you can see, our team is made up of incredibly diverse people from different backgrounds and different 
+hobbies. We have {Adjective} Nick, Nathalia the {Sport} master, Anne who works for {Company}, and Rui our 
+resident {Animal} cooker. We hope you get to work with us in the future whether it be in the classroom or 
+the {Place}!
+""")
+
+print("_" * 110)
+print("_" * 110)
+
+print("""
+Well done, we see you in class!
+""")
